@@ -1,0 +1,26 @@
+{
+    "BigBuckBunny": {
+        "InputFrames": "./rnf/bbb/frame%05d.jpg",
+        "InputAudio" : "./rnf/bbb/audio.wav"
+    },
+    "Springwatch" : {
+        "InputFrames": "./rnf/frames/frame%05d.jpg",
+        "InputAudio" : "./rnf/swfull.wav"
+    },
+    "iet" : {
+        "InputFrames": "./rnf/iet/frame%05d.jpg",
+        "InputAudio" : "./rnf/iet/iet-audio.wav"
+    },
+    "cosmos" : {
+        "InputFrames": "./rnf/cosmos/frame%05d.jpg",
+        "InputAudio" : "./rnf/cosmos/audio.wav"
+    },
+    "lostpast" : {
+        "InputFrames": "./rnf/lostpast/frames%05d.jpg",
+        "InputAudio" : "./rnf/lostpast/audio.wav"
+    },
+    "lostpastsubs" : {
+        "InputFrames": "./rnf/lostpast_subs/frames%05d.jpg",
+        "InputAudio" : "./rnf/lostpast_subs/audio.wav"
+    }
+}

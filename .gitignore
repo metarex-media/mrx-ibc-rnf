@@ -1,0 +1,13 @@
+**/*.db
+mount/
+output/
+archive/
+
+main
+**/*.mp4
+servercontents/
+generated/
+base.csv
+extra.csv
+extra.json
+

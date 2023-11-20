@@ -1,0 +1,44 @@
+---
+Groups:
+- settings:
+    title: a description of the group, e.g. `ai extracted data`
+  Tracks:
+  - settings:
+      title: Track title a description of the track, e.g. `characters`
+    events:
+    - metadata:
+        value: a description of the event, e.g. `character:bob` 
+      start:
+        frame: 0
+        numerator: 24
+        denominator: 1
+      end:
+        frame: 400
+        numerator: 24
+        denominator: 1
+    - metadata:
+        value: a description of the event, e.g. `character:Mohammed` 
+      start:
+        frame: 2076
+        numerator: 24
+        denominator: 1
+      end:
+        frame: 2477
+        numerator: 24
+        denominator: 1
+  - settings:
+      title: Track title a description of the track, e.g. `audio changes`
+      markerStyle:
+        backgroundColor: var(--AP-SUCCESS)
+      readOnly: true
+    events:
+      metadata:
+        value: a description of the event, e.g. audio change of silence
+      start:
+        frame: 401
+        numerator: 24
+        denominator: 1
+      end:
+        frame: 402
+        numerator: 24
+        denominator: 1
